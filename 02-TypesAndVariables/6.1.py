@@ -7,4 +7,4 @@ surname = input('enter your surname -') # replace May with your surname
 characters_in_name = len(name)
 print(f'Your name has {characters_in_name} characters')
 print(f'Your surname has  {len(surname)} characters')
-print(f'Your full name has {len(name)} characters') # with a space between name and surname
+print(f'Your full name has {len(name)} characters') # with a space between name and surnamec
