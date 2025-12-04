@@ -5,11 +5,11 @@ class Phone():
         self.size = size 
         
     def display_model(self):
-        print(self.model)
+        print(self.model,'model of the phone')
     
     def display_price(self):
-        print(self.price)
+        print(self.price,'price of the phone')
     
     def display_size(self):
-        print(self.size)
+        print(self.size,'size of the phone')
     

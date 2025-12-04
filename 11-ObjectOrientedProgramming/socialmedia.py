@@ -9,7 +9,7 @@ class SocialMediaProfile:
 
     def display_timeline(self):
         print(f'number of posts = {len(self.posts)}')
-        print(f'posts = {self.posts}')
+        print('posts = '+'\n'+"\n".join(self.posts))
         print(f'username = {self.username}')
 if __name__=="__main__":
     user = SocialMediaProfile('johndoe')
